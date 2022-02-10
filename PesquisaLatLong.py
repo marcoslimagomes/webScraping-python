@@ -9,7 +9,7 @@ from selenium.webdriver.chrome.options import Options
 import pyodbc
 
 
-conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\Users\marcos.gomes\NEOTASS PUBLICIDADE E PRODUCOES LT\Neotass - Documentos\Neotass\aDATA\BASE\BD_ADATA.accdb;')
+conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\colocar_aqui_o_endereco_da_pasta\nome_do_banco_access.accdb;')
 # abrindo conexão com access 
 
 cursor = conn.cursor()
