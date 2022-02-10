@@ -8,7 +8,7 @@ import pyodbc
 
 
 
-conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\Users\marcos.gomes\NEOTASS PUBLICIDADE E PRODUCOES LT\Neotass - Documentos\Neotass\aDATA\BASE\BD_ADATA.accdb;')
+conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\Users\marcos.gomes\aqui_colocar_seu_endereco\nome_do_banco_access.accdb;')
 cursor = conn.cursor()
 cursor.execute("select id_cnpj, result_lat_long from cns_Enderecos_empresas ORDER BY id_cnpj ASC") 
 
